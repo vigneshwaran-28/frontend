@@ -1,0 +1,15 @@
+#header{
+    background-color: #541554;
+    border: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+c-slacklogo{
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    width: 125px;
+}

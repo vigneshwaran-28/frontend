@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.total-frame {
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+}
+
+.main-body {
+    padding-top: 41px;
+}
+
+.first-half {
+    display: flex;
+    align-items: center;
+}
+
+.post-top {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    /* margin-left: 40px; */
+    justify-content: space-between;
+}
+
+.right-side {   
+    width: 20%;
+}
+
+@media screen and (min-wpost-imageidth:1053px) {
+    .main-body {
+       justify-content: center;
+    }
+}
+
+
+
+
+.profile-image {
+    width: 35px;
+    cursor: pointer;
+    height: 31px;
+    border-radius: 50%;
+}
+
+.username,.underscore{
+    color: rgb(38, 38, 38);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-size: 14px; */
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.username{
+    padding-left: 10px;
+}
+
+.underscore {
+    font-weight: 100;
+}
+
+.three-dot {
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.username:hover,
+.three-dot:hover,
+.comment:hover,
+.save:hover {
+    opacity: .5;
+}
+
+.comment-count {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(115, 115, 115);
+    padding-top: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* opacity: .5; */
+}
+
+.duration {
+    /* position: relative; */
+    font-size: 14.6px;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: .5;
+    padding-left: 10px;
+}
+
+.image-section {
+    /* position: absolute; */
+    padding-top: 15px;
+    display: flex;
+    /* width: 100%; */
+    border-radius: 3px;
+    /* height: 468px; */
+}
+
+.post-image {
+    width: 468px;
+    border: 1px solid rgb(239, 239, 239);
+    height: 468px;
+}
+
+.like-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.like {
+    width: 34px;
+    height: 24.8833px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+.comment {
+    width: 34px;
+    height: 24.8833px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+.share {
+    width: 34px;
+    height: 24.8833px;
+    cursor: pointer;
+}
+
+.save {
+    width: 32px;
+    height: 28.8833px;
+    cursor: pointer;
+}
+
+.like-count {
+    line-height: 20px;
+    /* padding-top: 8px; */
+    font-size: 14px;
+    font-family: Roboto
+}
+
+.cap {
+    padding-top: 10px;
+}
+
+.caption {
+    display: inline;
+    color: rgb(38, 38, 38);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.caption-content {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.comment-like{
+    width: 16px;
+    height: 16px;
+    padding-top: 10px;
+}
+
+.comment-sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ara{
+    padding-top: 10px;
+}
+
+.aravind{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer; 
+    font-family: Roboto;
+    display: inline;
+}
+
+.content{
+    display: inline;
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+@media screen and (max-width:490px) {
+    .main-body {
+        /* background-color: black; */
+        width: 90%;
+        /* justify-content: start; */
+    }
+
+    .post-image {
+        width: 100%;
+        height: 100%;
+    }
+}
